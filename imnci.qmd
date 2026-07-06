@@ -1,0 +1,474 @@
+---
+title: "IMNCI"
+subtitle: "Integrated Management of Neonatal and Childhood Illness"
+author: "Dr. Arun Mitra<br>Department of Community Medicine"
+date: today
+format:
+  revealjs:
+    slide-number: true
+    logo: logo.png
+    css: style.css
+    embed-resources: true
+    controls: true
+    progress: true
+    history: true
+    center: false
+    hash: true
+    footer: "IMNCI | Community Medicine"
+---
+
+## Session Roadmap
+
+- Why IMNCI? Rationale and evolution
+- The IMNCI approach: age groups and colour-coded triage
+- The sick child (2 months–5 years)
+- The sick young infant (0–2 months)
+- IMNCI in India: delivery and F-IMNCI
+- Apply it: a case, then formative questions
+
+::: {.notes}
+This lecture follows the two-part Malnutrition series. Frame IMNCI as the frontline system that detects and routes sick and malnourished children into the pathways (NRC, CMAM, POSHAN 2.0) they already met in Malnutrition L2. ~1 min.
+:::
+
+---
+
+## Learning Objectives
+
+By the end of this session, you should be able to:
+
+1. Explain the rationale for IMNCI and the IMCI → IMNCI evolution
+2. State the three strategy components and the two age groups
+3. Describe the process: assess → classify → treat → counsel → follow-up
+4. List the general danger signs and the four main symptoms
+5. Outline assessment of the sick young infant, including PSBI
+6. Triage a child by colour, and link severe malnutrition to referral
+
+::: {.notes}
+These map to likely SAQs and to the MCQs at the end. ~1 min.
+:::
+
+---
+
+## A Triage Scenario
+
+::: {.callout-important appearance="simple"}
+You are the only health worker at a sub-centre. Three children arrive at once:
+
+- a 3-year-old with a **cough**
+- an 8-month-old who is **drowsy and refusing to feed**
+- a 2-year-old with a **runny nose**
+
+You cannot see all three at once. **Who do you attend to first?**
+:::
+
+::: {.notes}
+Students will pick the drowsy, not-feeding infant. Name what they just did: they triaged by severity using a danger sign. IMNCI makes that instinct systematic and usable by a non-specialist. ~3 min.
+:::
+
+---
+
+## What Is IMNCI?
+
+A standardised, symptom-based (syndromic) approach to assessing, classifying, and managing sick children from **birth to 5 years** at the primary-care level.
+
+- "Integrated": a single child is assessed for **all** the major killers in one visit
+- Designed for a frontline worker, without a diagnosis-per-disease or laboratory back-up
+
+::: {.notes}
+Contrast with the classic one-disease-one-clinic model. IMNCI treats the child, not the diagnosis. ~2 min.
+:::
+
+---
+
+# Why IMNCI? {.inverse background-color="#1a3a5c"}
+
+**Section 1 · Rationale & evolution**
+
+---
+
+## Why an Integrated Approach?
+
+- Under-5 deaths cluster in a few conditions: pneumonia, diarrhoea, fever/malaria, measles, neonatal causes, and malnutrition
+- In real life these **overlap** in the same child: diarrhoea *and* pneumonia *and* undernutrition together
+
+::: {.callout-note appearance="simple"}
+**[→ Malnutrition L1]** The malnutrition–infection vicious cycle is the best justification for integration: you cannot treat the pneumonia and ignore the wasting.
+:::
+
+::: {.notes}
+Reactivate the Scrimshaw cycle from L1. This is the conceptual heart of "why integrated." ~2 min.
+:::
+
+---
+
+## From IMCI to IMNCI {.smaller}
+
+| | IMCI (WHO/UNICEF, mid-1990s) | IMNCI (India) |
+|---|---|---|
+| Age range | 1 week – 5 years | **Birth – 5 years** |
+| Emphasis | Childhood illness (2 mo–5 y) | **Adds a strong newborn/young-infant arm** |
+| Why | — | A large share of India's under-5 deaths are **neonatal** → the "N" |
+
+::: {.notes}
+The "why the N" point is the most examinable part of this slide. ~2 min.
+:::
+
+---
+
+## Three Components of the Strategy
+
+1. Improve the **case-management skills** of health workers (training, chart booklet)
+2. Improve the **health system** that delivers care (drugs, supplies, referral, supervision)
+3. Improve **family and community practices** (care-seeking, feeding, immunisation)
+
+::: {.callout-tip appearance="simple"}
+Two of the three pillars are **systems and community**, which is why IMNCI sits in Community Medicine, not only Paediatrics.
+:::
+
+::: {.notes}
+Stress that IMNCI is not just a clinical algorithm. ~2 min.
+:::
+
+---
+
+# The IMNCI Approach {.inverse background-color="#1a3a5c"}
+
+**Section 2 · Age groups & triage**
+
+---
+
+## Two Age Groups, Two Forms
+
+| Age band | Name | Key feature |
+|---|---|---|
+| Birth up to 2 months | **Sick young infant** | Subtle signs, rapid deterioration, low threshold to refer |
+| 2 months up to 5 years | **Sick child** | General danger signs + four main symptoms |
+
+Each band has its **own** algorithm and case-recording form.
+
+::: {.notes}
+Set up that we will do the 2 mo–5 y algorithm first, then the young infant. ~2 min.
+:::
+
+---
+
+## The Colour-Coded Classification
+
+| Colour | Meaning | Action |
+|---|---|---|
+| **PINK** | Severe classification | Urgent **pre-referral treatment** + refer |
+| **YELLOW** | Needs specific treatment | Treat at facility / home |
+| **GREEN** | Mild / no severe sign | Home management + counsel |
+
+::: {.callout-note appearance="simple"}
+**[→ Malnutrition L2]** Same triage logic as complicated (facility/NRC) versus uncomplicated (community) SAM.
+:::
+
+::: {.notes}
+The colour a child ends up in decides where they are managed. ~2 min.
+:::
+
+---
+
+# The Sick Child: 2 Months–5 Years {.inverse background-color="#1a3a5c"}
+
+**Section 3**
+
+---
+
+## The Case-Management Process
+
+A fixed sequence for every sick child:
+
+```{mermaid}
+flowchart LR
+  A[Assess] --> B[Classify] --> C[Identify Rx] --> D[Treat] --> E[Counsel] --> F[Follow-up]
+```
+
+Classify uses the colour code; the colour tells you what to do next.
+
+::: {.notes}
+Walk left to right once. Emphasise it is the same sequence every time, which is what makes it reproducible. ~2 min.
+:::
+
+---
+
+## Step 1: General Danger Signs (check first)
+
+Check **before** anything else. Any **one** means the child is severely ill:
+
+1. Not able to drink or breastfeed
+2. Vomits everything
+3. Convulsions
+4. Lethargic or unconscious
+
+::: {.callout-important appearance="simple"}
+**Any one danger sign → urgent referral.** The "any one" rule, just like the SAM criteria.
+:::
+
+::: {.notes}
+Danger signs are always assessed first. Repeat: any one is enough. ~2 min.
+:::
+
+---
+
+## The Four Main Symptoms {.smaller}
+
+| Main symptom | What you look for | Severe (PINK) example |
+|---|---|---|
+| **Cough / difficult breathing** | Fast breathing, chest indrawing, stridor | Chest indrawing → severe pneumonia |
+| **Diarrhoea** | Dehydration, duration, blood | Severe dehydration; dysentery |
+| **Fever** | Cause, duration, measles, stiff neck | Very severe febrile disease |
+| **Ear problem** | Pain, discharge, swelling behind ear | Mastoiditis |
+
+::: {.notes}
+Overview table; the next slides drill the two highest-yield ones. ~2 min.
+:::
+
+---
+
+## Cough or Difficult Breathing
+
+- Assess for fast breathing, chest indrawing, and stridor
+- Chest indrawing or stridor → **severe pneumonia (PINK)**
+
+::: {.callout-important appearance="simple"}
+**Fast breathing thresholds (examinable):**
+
+- 2 months up to 12 months → **≥ 50 breaths/min**
+- 12 months up to 5 years → **≥ 40 breaths/min**
+:::
+
+::: {.notes}
+Demonstrate counting respiratory rate for a full minute. These cut-offs are classic MCQs. ~2 min.
+:::
+
+---
+
+## Diarrhoea
+
+- Classify dehydration: **severe / some / none** (skin pinch, sunken eyes, ability to drink)
+- Also identify **persistent diarrhoea** (≥14 days) and **dysentery** (blood in stool)
+
+::: {.callout-note appearance="simple"}
+**[→ Malnutrition L2]** Zinc plus low-osmolarity ORS for 14 days shortens childhood diarrhoea.
+:::
+
+::: {.notes}
+Tie back to the zinc + ORS point from the malnutrition management lecture. ~2 min.
+:::
+
+---
+
+## Fever & Ear Problem
+
+- **Fever:** assess cause and duration; look for measles and for stiff neck (very severe febrile disease / meningitis)
+- **Ear problem:** ear pain or discharge; a tender swelling behind the ear suggests **mastoiditis**
+
+::: {.notes}
+Keep brief; the fever algorithm is adapted locally for malaria/dengue risk. ~2 min.
+:::
+
+---
+
+## Then Check: Malnutrition, Anaemia, Immunisation
+
+- **Acute malnutrition:** oedema of both feet, **MUAC (6–59 months)**, weight-for-height, visible severe wasting
+- **Anaemia:** **palmar pallor** (severe vs some)
+- **Immunisation status**, vitamin A, and any other problems
+
+::: {.notes}
+Every sick child is also screened for malnutrition and anaemia at the same visit. This is the integration in action. ~2 min.
+:::
+
+---
+
+## The Malnutrition Link {.smaller}
+
+::: {.callout-important appearance="simple"}
+**[→ Malnutrition L2]** The IMNCI malnutrition check **is** the SAM screen your students already know.
+:::
+
+- **Complicated SAM** (oedema, a danger sign, or failed appetite) → **PINK → refer to NRC**
+- **Uncomplicated SAM** (MUAC < 11.5 cm or WHZ < −3, appetite intact) → **RUTF, community care (CMAM)**
+- **MAM** → nutrition counselling / supplementary feeding
+
+::: {.notes}
+IMNCI is simply where that SAM classification happens first, at the frontline. Continuity with L2's management pathway. ~3 min.
+:::
+
+---
+
+## Identify Treatment, Treat, Counsel, Follow Up
+
+- **Treat:** for PINK children, give **pre-referral treatment** first — first antibiotic dose, prevent low blood sugar, keep warm, treat convulsions
+- **Counsel:** feeding and fluids during illness, and the **danger signs that mean "return immediately"**
+- **Follow-up:** a scheduled return visit to reassess and reclassify
+
+::: {.notes}
+The pre-referral dose is a recurring exam and viva point. ~2 min.
+:::
+
+---
+
+# The Sick Young Infant: 0–2 Months {.inverse background-color="#1a3a5c"}
+
+**Section 4**
+
+---
+
+## Why a Separate Algorithm
+
+- Signs in a young infant are **non-specific** and deterioration is **rapid**
+- So the threshold to refer is deliberately **low**
+- The three priorities: **infection, jaundice, feeding**
+
+::: {.notes}
+Explain the lower referral threshold as a safety design choice, not over-caution. ~2 min.
+:::
+
+---
+
+## PSBI / Very Severe Disease {.smaller}
+
+Any **one** of the following → **PINK → refer** after pre-referral treatment:
+
+- Not feeding well
+- Convulsions
+- **Fast breathing (≥ 60 breaths/min)**
+- Severe chest indrawing
+- Fever (≥ 37.5°C) **or** low body temperature (< 35.5°C)
+- Movement only when stimulated, or no movement at all
+
+::: {.notes}
+PSBI = possible serious bacterial infection. Note the young-infant fast-breathing cut-off is higher (60). ~3 min.
+:::
+
+---
+
+## Jaundice, Feeding & Low Weight
+
+- **Jaundice:** severe jaundice → refer
+- **Feeding problem or low weight for age:** assess the breastfeed — attachment, positioning, effective suckling
+
+::: {.callout-note appearance="simple"}
+**[→ Malnutrition L2]** Effective breastfeeding support links to early initiation and exclusive breastfeeding (the IYCF practices).
+:::
+
+::: {.notes}
+Breastfeeding assessment and support is a core young-infant counselling skill. ~2 min.
+:::
+
+---
+
+# IMNCI in India {.inverse background-color="#1a3a5c"}
+
+**Section 5 · Delivery**
+
+---
+
+## Who Delivers IMNCI
+
+- Introduced under **RCH-II (2005)**, now implemented within the **National Health Mission**
+- Delivered by a trained team: **Medical Officers, ANMs, Anganwadi Workers, ASHAs**
+- **Home-Based Newborn Care (HBNC)** by ASHAs complements the young-infant arm in the community
+
+::: {.notes}
+Each cadre works within its role; the strength is the trained team, not any one worker. ~2 min.
+:::
+
+---
+
+## F-IMNCI (Facility-Based)
+
+- Trains **Medical Officers and staff nurses** at CHC / FRU / district hospital
+- To manage the sick young infants and children **referred** by outpatient IMNCI
+- Bridges the community algorithm and **inpatient** care
+
+::: {.callout-note appearance="simple"}
+**[→ Malnutrition L2]** F-IMNCI at the facility and the **NRC** for complicated SAM are the two arms of the same referral level, both under POSHAN 2.0 / child survival.
+:::
+
+::: {.notes}
+Discussion prompt: why does the pre-referral antibiotic dose matter if the child is being referred anyway? (Referral delays, distance, early antibiotics, the systems pillar.) ~3 min.
+:::
+
+---
+
+# Apply It {.inverse background-color="#1a3a5c"}
+
+**Section 6 · A case, then questions**
+
+---
+
+## Case Study {.smaller}
+
+::: {.callout-important appearance="simple"}
+An **11-month-old girl**, cough for 3 days. On assessment: **drinks eagerly**, respiratory rate **54/min**, **no chest indrawing**, no stridor. **MUAC 11.2 cm**, no oedema, appetite present, immunisation up to date.
+:::
+
+- Does she have any general danger sign?
+- Classify her breathing. What colour?
+- Classify her nutritional status. What colour, and what pathway?
+- What treatment and counselling, and when should she return?
+
+::: {.notes}
+Let students work in pairs for 2 minutes before revealing the next slide. ~3 min.
+:::
+
+---
+
+## Case: Working Through It {.smaller}
+
+- **Danger sign?** None (drinks, no vomiting, no convulsions, alert)
+- **Breathing:** RR 54 at 11 months is fast (≥ 50), no indrawing/stridor → **Pneumonia (YELLOW)**: oral amoxicillin, return in 3 days
+- **Nutrition:** MUAC 11.2 cm with appetite and no oedema → **uncomplicated SAM → RUTF (CMAM)**, not a hospital referral
+- **Counsel:** feeding and fluids; return immediately if any danger sign appears
+
+::: {.notes}
+The teaching point: two systems classified at once, YELLOW for breathing and a community-managed SAM, no PINK referral. ~2 min.
+:::
+
+---
+
+## Formative Questions {.smaller}
+
+1. Name one general danger sign in a child aged 2 months–5 years.
+2. What is the fast-breathing cut-off for a 4-month-old?
+3. In the colour code, what does PINK mean?
+4. A 9-month-old with MUAC 11.0 cm, bilateral oedema, and a danger sign classifies as what?
+5. What does F-IMNCI stand for and cover?
+
+::: {.notes}
+Answers: (1) not able to drink / vomits everything / convulsions / lethargic-unconscious; (2) ≥ 50/min; (3) urgent pre-referral treatment and referral; (4) complicated SAM → refer to NRC; (5) facility-based IMNCI for referred sick infants/children. ~3 min.
+:::
+
+---
+
+## Key Takeaways {.smaller}
+
+- IMNCI is **integrated and syndromic**: one child assessed for all major killers; India's version adds the **neonate**
+- **Check general danger signs first** — any one means urgent referral
+- Four main symptoms, plus **malnutrition, anaemia, immunisation**
+- **Colour decides the pathway:** PINK refer, YELLOW treat, GREEN counsel
+- IMNCI is the **front door** to the NRC / CMAM / POSHAN 2.0 system from the Malnutrition lectures
+
+::: {.notes}
+Recap each briefly, then close. ~2 min.
+:::
+
+---
+
+## References {.smaller}
+
+- **MoHFW (India)** — IMNCI Student Handbook and Physician Chart Booklet; F-IMNCI Participant's Manual (implemented under RCH-II / NHM).
+- **WHO / UNICEF** — Integrated Management of Childhood Illness Chart Booklet (2014); IMCI handbook.
+- Park's Textbook of Preventive and Social Medicine — RCH / IMNCI chapters (latest edition).
+
+---
+
+## Thank You {.inverse background-color="#1a3a5c"}
+
+Questions and discussion welcome.
+
+*IMNCI · Community Medicine*
